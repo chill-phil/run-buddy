@@ -11,7 +11,7 @@ body {
 
   /* apply styles to <header> */
 header {  
-  padding: 20px 35px;
+    padding: 20px 35px;
     background-color: #39a6b2;
   }
 
@@ -63,7 +63,7 @@ footer div {
   }
 
 footer a {
-        color: #024e76;
+    color: #024e76;
   }
 
   section {
@@ -76,13 +76,17 @@ footer a {
   height: 600px;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 /* Hero Style End */
 
 .hero-form {
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
-  border: solid 3px #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
 }
